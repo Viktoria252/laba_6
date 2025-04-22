@@ -22,11 +22,11 @@ class CalculatorTest {
 
     @Test
     void times() {
-        assertEquals(1, calc.times(2, 2));
+        assertEquals(4, calc.times(2, 2));
     }
 
     @Test
     void solver() {
-        assertEquals(1, calc.solver(2, 1));
+        assertEquals(9, calc.solver(2, 1));
     }
 }
